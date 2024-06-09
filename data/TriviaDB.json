@@ -1,0 +1,814 @@
+[
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Current Events",
+    "question": "What is the capital city of France?",
+    "correct_answer": "Paris",
+    "incorrect_answers": ["London", "Berlin", "Rome"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Health",
+    "question": "What is the leading cause of death worldwide according to recent reports?",
+    "correct_answer": "Heart Disease",
+    "incorrect_answers": ["Cancer", "COVID-19", "Stroke"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Entertainment: Film",
+    "question": "The movie 'Nomadland' won the Oscar for Best Picture in 2021.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Technology",
+    "question": "Which tech company recently launched its first electric car?",
+    "correct_answer": "Apple",
+    "incorrect_answers": ["Tesla", "Google", "Amazon"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "World Affairs",
+    "question": "Who is the current President of the United States?",
+    "correct_answer": "Joe Biden",
+    "incorrect_answers": ["Donald Trump", "Barack Obama", "George W. Bush"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Sports",
+    "question": "Tennis player Serena Williams holds the record for the most Grand Slam titles won by a female player.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Environment",
+    "question": "Which natural disaster recently devastated parts of the Caribbean?",
+    "correct_answer": "Hurricane",
+    "incorrect_answers": ["Earthquake", "Tornado", "Flood"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "World Affairs",
+    "question": "The United Kingdom recently exited the European Union in an event commonly referred to as 'Brexit'.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "History",
+    "question": "Which historical event marked the end of World War II in Europe?",
+    "correct_answer": "The Surrender of Nazi Germany",
+    "incorrect_answers": [
+      "The Atomic Bombings of Hiroshima and Nagasaki",
+      "The Fall of Berlin",
+      "The D-Day Invasion"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "Health",
+    "question": "The COVID-19 pandemic began in late 2019.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science: General",
+    "question": "What is the chemical symbol for water?",
+    "correct_answer": "H2O",
+    "incorrect_answers": ["CO2", "NaCl", "O2"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Entertainment: Film",
+    "question": "Who directed the movie 'The Shawshank Redemption'?",
+    "correct_answer": "Frank Darabont",
+    "incorrect_answers": [
+      "Steven Spielberg",
+      "Quentin Tarantino",
+      "Martin Scorsese"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "Entertainment: Music",
+    "question": "The song 'Bohemian Rhapsody' by Queen was released in the 1980s.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Geography",
+    "question": "Which continent is home to the Amazon Rainforest?",
+    "correct_answer": "South America",
+    "incorrect_answers": ["Africa", "Asia", "Europe"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Sports",
+    "question": "Michael Jordan played professional baseball before entering the NBA.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Nature",
+    "question": "What is the scientific name for the Northern Lights?",
+    "correct_answer": "Aurora Borealis",
+    "incorrect_answers": ["Aurora Australis", "Polaris", "Corona Borealis"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "Entertainment: Music",
+    "question": "Elvis Presley is known as the 'King of Rock and Roll'.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "History",
+    "question": "Which ancient civilization built the city of Machu Picchu?",
+    "correct_answer": "Inca",
+    "incorrect_answers": ["Maya", "Aztec", "Egyptian"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Television",
+    "question": "Which TV show features characters named Homer, Marge, Bart, Lisa, and Maggie?",
+    "correct_answer": "The Simpsons",
+    "incorrect_answers": ["Family Guy", "South Park", "Rick and Morty"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Science: Space",
+    "question": "The Earth revolves around the Moon.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Film",
+    "question": "Who played the character Neo in the movie 'The Matrix'?",
+    "correct_answer": "Keanu Reeves",
+    "incorrect_answers": ["Brad Pitt", "Tom Cruise", "Leonardo DiCaprio"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "General Knowledge",
+    "question": "What is the largest planet in our solar system?",
+    "correct_answer": "Jupiter",
+    "incorrect_answers": ["Saturn", "Mars", "Earth"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Geography",
+    "question": "The Nile River is the longest river in the world.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Biology",
+    "question": "What is the powerhouse of the cell?",
+    "correct_answer": "Mitochondria",
+    "incorrect_answers": ["Nucleus", "Ribosome", "Endoplasmic Reticulum"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "Entertainment: Music",
+    "question": "Lady Gaga's real name is Stefani Joanne Angelina Germanotta.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science: Computers",
+    "question": "What does CPU stand for?",
+    "correct_answer": "Central Processing Unit",
+    "incorrect_answers": [
+      "Computer Personal Unit",
+      "Central Process Unit",
+      "Computer Processing Unit"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "hard",
+    "category": "General Knowledge",
+    "question": "A group of flamingos is called a flamboyance.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "History",
+    "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+    "correct_answer": "Amelia Earhart",
+    "incorrect_answers": [
+      "Bessie Coleman",
+      "Harriet Quimby",
+      "Jacqueline Cochran"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Film",
+    "question": "Who played Jack Dawson in the movie 'Titanic'?",
+    "correct_answer": "Leonardo DiCaprio",
+    "incorrect_answers": ["Tom Hanks", "Brad Pitt", "Matt Damon"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Space",
+    "question": "Which planet is known as the 'Red Planet'?",
+    "correct_answer": "Mars",
+    "incorrect_answers": ["Venus", "Jupiter", "Saturn"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "Michael Jackson was known as the 'King of Pop'.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Geography",
+    "question": "What is the smallest country in the world by land area?",
+    "correct_answer": "Vatican City",
+    "incorrect_answers": ["Monaco", "San Marino", "Nauru"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "General Knowledge",
+    "question": "What is the symbol for the chemical element gold?",
+    "correct_answer": "Au",
+    "incorrect_answers": ["Go", "Ag", "Gl"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Entertainment: Television",
+    "question": "The TV show 'Breaking Bad' is set in Albuquerque, New Mexico.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Computers",
+    "question": "What does HTML stand for?",
+    "correct_answer": "Hypertext Markup Language",
+    "incorrect_answers": [
+      "Hyper Technology Modern Language",
+      "Home Tool Markup Language",
+      "Hyperlink Text Management Language"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "Science: Nature",
+    "question": "The human heart has four chambers.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "Who is known as the 'Queen of Pop'?",
+    "correct_answer": "Madonna",
+    "incorrect_answers": ["Beyonce", "Taylor Swift", "Ariana Grande"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Geography",
+    "question": "Which African country is known as the 'Pearl of Africa'?",
+    "correct_answer": "Uganda",
+    "incorrect_answers": ["Kenya", "Nigeria", "Ethiopia"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Science: Computers",
+    "question": "The programming language Python is named after a snake.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Television",
+    "question": "Which TV show features characters named Ross, Rachel, Monica, Chandler, Joey, and Phoebe?",
+    "correct_answer": "Friends",
+    "incorrect_answers": [
+      "The Office",
+      "How I Met Your Mother",
+      "Brooklyn Nine-Nine"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "hard",
+    "category": "History",
+    "question": "The RMS Titanic sank on its maiden voyage.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "Who is the lead singer of the band Coldplay?",
+    "correct_answer": "Chris Martin",
+    "incorrect_answers": ["Dave Grohl", "Thom Yorke", "Bono"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science: Mathematics",
+    "question": "What is the value of pi (π) rounded to two decimal places?",
+    "correct_answer": "3.14",
+    "incorrect_answers": ["3.12", "3.16", "3.18"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Geography",
+    "question": "Which African country is the largest by land area?",
+    "correct_answer": "Algeria",
+    "incorrect_answers": [
+      "Nigeria",
+      "Democratic Republic of the Congo",
+      "Sudan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Computers",
+    "question": "What does 'HTTP' stand for in a website address?",
+    "correct_answer": "Hypertext Transfer Protocol",
+    "incorrect_answers": [
+      "Hyper Text Transfer Panel",
+      "Hypertext Tool Transfer Protocol",
+      "Hyperlinks and Text Transfer Protocol"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "General Knowledge",
+    "question": "What is the most common gas in the Earth's atmosphere?",
+    "correct_answer": "Nitrogen",
+    "incorrect_answers": ["Oxygen", "Carbon Dioxide", "Hydrogen"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Biology",
+    "question": "What is the largest organ in the human body?",
+    "correct_answer": "Skin",
+    "incorrect_answers": ["Heart", "Liver", "Brain"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "Elvis Presley had a twin brother named Garon, who died at birth.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Geography",
+    "question": "Which African country is the largest by land area?",
+    "correct_answer": "Algeria",
+    "incorrect_answers": [
+      "Nigeria",
+      "Democratic Republic of the Congo",
+      "Sudan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Film",
+    "question": "Which actor played the role of Tony Stark in the Marvel Cinematic Universe?",
+    "correct_answer": "Robert Downey Jr.",
+    "incorrect_answers": ["Chris Evans", "Chris Hemsworth", "Mark Ruffalo"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Entertainment: Television",
+    "question": "The TV show 'The Office' is based on a British series of the same name.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Computers",
+    "question": "What does 'HTTP' stand for in a website address?",
+    "correct_answer": "Hypertext Transfer Protocol",
+    "incorrect_answers": [
+      "Hyper Text Transfer Panel",
+      "Hypertext Tool Transfer Protocol",
+      "Hyperlinks and Text Transfer Protocol"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "Science: Nature",
+    "question": "Polar bears are known to camouflage themselves in their icy habitat.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "Which famous singer is known by the nickname 'The Boss'?",
+    "correct_answer": "Bruce Springsteen",
+    "incorrect_answers": ["Elton John", "Bob Dylan", "David Bowie"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Geography",
+    "question": "Which island group is located at 0° latitude and 90°W longitude?",
+    "correct_answer": "Galápagos Islands",
+    "incorrect_answers": ["Hawaiian Islands", "Maldives", "Seychelles"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Science: Computers",
+    "question": "The programming language Java was named after the island of Java in Indonesia.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Television",
+    "question": "Which TV show features characters named Michael Scott, Jim Halpert, and Dwight Schrute?",
+    "correct_answer": "The Office",
+    "incorrect_answers": [
+      "Parks and Recreation",
+      "Brooklyn Nine-Nine",
+      "30 Rock"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "hard",
+    "category": "History",
+    "question": "The Great Wall of China is the only man-made structure visible from space.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "Which legendary singer was known as 'The Queen of Soul'?",
+    "correct_answer": "Aretha Franklin",
+    "incorrect_answers": ["Whitney Houston", "Diana Ross", "Tina Turner"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science: Mathematics",
+    "question": "What is the smallest prime number?",
+    "correct_answer": "2",
+    "incorrect_answers": ["1", "3", "5"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Entertainment: Film",
+    "question": "The movie 'Jurassic Park' was directed by Steven Spielberg.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Nature",
+    "question": "What is the world's largest reptile?",
+    "correct_answer": "Saltwater Crocodile",
+    "incorrect_answers": ["Anaconda", "Komodo Dragon", "Galápagos Tortoise"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "hard",
+    "category": "Science: Chemistry",
+    "question": "Diamonds are made entirely of carbon.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "General Knowledge",
+    "question": "What is the currency of Japan?",
+    "correct_answer": "Yen",
+    "incorrect_answers": ["Dollar", "Euro", "Pound"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Entertainment: Music",
+    "question": "Which musical artist is known for albums such as 'Born to Die' and 'Ultraviolence'?",
+    "correct_answer": "Lana Del Rey",
+    "incorrect_answers": ["Billie Eilish", "Adele", "Lorde"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Entertainment: Television",
+    "question": "The TV show 'Breaking Bad' is set in Albuquerque, New Mexico.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Computers",
+    "question": "What does 'SQL' stand for?",
+    "correct_answer": "Structured Query Language",
+    "incorrect_answers": [
+      "Standard Query Language",
+      "Sequential Query Language",
+      "Structured Question Language"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "Science: Nature",
+    "question": "The total surface area of a human lung is approximately the same as that of a tennis court.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "General Knowledge",
+    "question": "What is the largest mammal in the world?",
+    "correct_answer": "Blue Whale",
+    "incorrect_answers": ["African Elephant", "Giraffe", "Hippopotamus"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Biology",
+    "question": "Which organ produces insulin in the human body?",
+    "correct_answer": "Pancreas",
+    "incorrect_answers": ["Liver", "Kidneys", "Spleen"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "Adele's 'Rolling in the Deep' won a Grammy for Record of the Year.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Geography",
+    "question": "Which river is the longest in the world?",
+    "correct_answer": "Nile",
+    "incorrect_answers": ["Amazon", "Yangtze", "Mississippi"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Film",
+    "question": "Who directed the movie 'Pulp Fiction'?",
+    "correct_answer": "Quentin Tarantino",
+    "incorrect_answers": [
+      "Martin Scorsese",
+      "Steven Spielberg",
+      "Christopher Nolan"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Entertainment: Television",
+    "question": "The TV show 'Friends' is set in New York City.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Computers",
+    "question": "What does 'HTML' stand for in web development?",
+    "correct_answer": "Hypertext Markup Language",
+    "incorrect_answers": [
+      "Hyperlink Text Management Language",
+      "Hyper Transfer Mode Language",
+      "Home Tool Markup Language"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "Science: Nature",
+    "question": "Sharks are mammals.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "Who is known as the 'King of Pop'?",
+    "correct_answer": "Michael Jackson",
+    "incorrect_answers": ["Elvis Presley", "Prince", "Madonna"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Geography",
+    "question": "Which country is the world's largest island?",
+    "correct_answer": "Australia",
+    "incorrect_answers": ["Greenland", "Madagascar", "Japan"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Science: Computers",
+    "question": "The programming language Python was named after a reptile.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Television",
+    "question": "Which TV show features characters named Walter White, Jesse Pinkman, and Saul Goodman?",
+    "correct_answer": "Breaking Bad",
+    "incorrect_answers": [
+      "The Walking Dead",
+      "Game of Thrones",
+      "Stranger Things"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "hard",
+    "category": "History",
+    "question": "Queen Elizabeth II is the longest-reigning British monarch.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "Which singer is known as the 'Queen of Soul'?",
+    "correct_answer": "Aretha Franklin",
+    "incorrect_answers": ["Whitney Houston", "Diana Ross", "Tina Turner"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science: Mathematics",
+    "question": "What is the value of pi (π) to two decimal places?",
+    "correct_answer": "3.14",
+    "incorrect_answers": ["3.12", "3.16", "3.18"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Entertainment: Film",
+    "question": "Leonardo DiCaprio won an Oscar for his role in the movie 'The Revenant'.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Nature",
+    "question": "What is the world's largest reef system?",
+    "correct_answer": "Great Barrier Reef",
+    "incorrect_answers": [
+      "Belize Barrier Reef",
+      "Florida Reef",
+      "Red Sea Coral Reef"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "hard",
+    "category": "Science: Chemistry",
+    "question": "The chemical element Mercury is also known as quicksilver.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "General Knowledge",
+    "question": "What is the capital city of Australia?",
+    "correct_answer": "Canberra",
+    "incorrect_answers": ["Sydney", "Melbourne", "Brisbane"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Entertainment: Music",
+    "question": "Which rock band released the album 'OK Computer'?",
+    "correct_answer": "Radiohead",
+    "incorrect_answers": ["Nirvana", "Led Zeppelin", "Pink Floyd"]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Entertainment: Television",
+    "question": "The TV show 'Breaking Bad' is set in Albuquerque, New Mexico.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science: Computers",
+    "question": "What does 'SQL' stand for?",
+    "correct_answer": "Structured Query Language",
+    "incorrect_answers": [
+      "Standard Query Language",
+      "Sequential Query Language",
+      "Structured Question Language"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "Science: Nature",
+    "question": "The total surface area of a human lung is approximately the same as that of a tennis court.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "History: World War II",
+    "question": "Which country was the first to declare war in World War II?",
+    "correct_answer": "Germany",
+    "incorrect_answers": ["United Kingdom", "France", "Poland"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Literature: Classic",
+    "question": "Who wrote the novel 'Moby-Dick'?",
+    "correct_answer": "Herman Melville",
+    "incorrect_answers": ["Mark Twain", "Charles Dickens", "Emily Dickinson"]
+  }
+]
